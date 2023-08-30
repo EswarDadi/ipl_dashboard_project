@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.match-card-logo {
+  height: 80px;
+  width: 80px;
+}
+@media screen and (min-width: 575px) {
+  .match-card-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  background-color: #0f172a;
+  margin-left: 12px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  height: 250px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 575px) {
+  .card-container {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #0f172a;
+    margin-bottom: 12px;
+    border-radius: 8px;
+
+    justify-content: center;
+    align-items: center;
+  }
+}
+.result {
+  color: white;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.match-status {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: roboto;
+}
+@media screen and (min-width: 575px) {
+  .match-status {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}

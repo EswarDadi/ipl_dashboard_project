@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.match-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media screen and (min-width: 575px) {
+  .match-card-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.image-banner {
+  width: 100%;
+}
+.team-matches-container {
+  background-image: linear-gradient(to bottom, #a4261d, #5755a7);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.matches-container {
+  padding-left: 12px;
+}
